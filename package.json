@@ -1,0 +1,31 @@
+{
+    "name": "morgen-moment-extension",
+    "version": "1.0.0",
+    "description": "Extensions for moment.js",
+    "homepage": "https://github.com/morgen-so/morgen-moment-extension",
+    "bugs": {
+        "url": "https://github.com/morgen-so/morgen-moment-extension"
+    },
+    "author": "Morgen AG (https://morgen.so)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/morgen-so/morgen-moment-extension.git"
+    },
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@arethetypeswrong/cli": "^0.16.4",
+        "typescript": "^5.6.3"
+    },
+    "peerDependencies": {
+        "moment": "*",
+        "moment-timezone": "*"
+    }
+}
