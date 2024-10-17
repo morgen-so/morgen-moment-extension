@@ -1,6 +1,6 @@
 {
     "name": "morgen-moment-extension",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Extensions for moment.js",
     "homepage": "https://github.com/morgen-so/morgen-moment-extension",
     "bugs": {
